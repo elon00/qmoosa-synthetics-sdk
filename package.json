@@ -1,0 +1,27 @@
+{
+  "name": "@qmoosa/synthetics-sdk",
+  "version": "1.0.0",
+  "description": "QMOOSA Synthetics SDK — Type-Safe Staking Client, Zero-Slippage Exchange Builders & Admin Signers",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/sdk.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "synthetics",
+    "sdk",
+    "client",
+    "ed25519",
+    "defi"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
